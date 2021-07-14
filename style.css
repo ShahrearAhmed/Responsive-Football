@@ -145,7 +145,7 @@ button, .link-button{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     height: 600px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     background-color: navy;
 
 }
@@ -192,15 +192,37 @@ button, .link-button{
 }
 
 
-
-
-
 /* Sixth Section */
 
+/* Seven Section */
 
-
-
-
+.seven-section{
+    width: 1440px;
+    height: 500px;
+    background-color:thistle;
+    margin-bottom: 70px;
+}
+.heading{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.form{
+    width: 1440px;
+    height: 450px;
+    margin: 100px 600px 200px 580px;
+}
+.form-name{
+    font-size:20px ;
+    font-weight: bold;
+    margin: 30px;
+}
+.form-name-2{
+    font-size:20px ;
+    font-weight: bold;
+    margin: 30px;
+}
 
 
 
