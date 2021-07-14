@@ -66,3 +66,43 @@ button, .link-button{
 }
 /* First Section */
 
+/* Second section */
+
+.second-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.box-width{
+    width: 1050px;
+    height: 474px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 180px;
+    margin-right: 210px;
+    
+}
+.player-image{
+   width: 330px;
+   height: 500px;
+   box-shadow: 5px 5px 5px 2px gray; 
+}
+.image-width{
+    width: 300px;
+    height: 256px;
+    padding:15px;
+}
+.player-name{
+    width: 330px;
+    height: 40px;
+    font-weight: 700;
+    size: 28px;
+    margin: 16px 15px 10px 15px;
+    padding: 10px 10px 10px 0px;
+}
+.player-info{
+    width: 300px;
+    height: 104px;
+    font-weight: 400;
+    size: 16px;
+    margin: 10px 15px 33px 15px;
+}
