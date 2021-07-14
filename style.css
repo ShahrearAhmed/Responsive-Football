@@ -261,3 +261,42 @@ button:hover{
     font-size: 18px;
 }
 /*Footer Section*/
+
+
+
+/* -------------
+Media Queries 
+----------------*/
+
+
+@media only screen and (max-width:688px) {
+
+ .first-section, .second-section, .third-section ,
+  .fourth-section, .fifth-section,
+   .sixth-section, .seven-section, .footer-section{
+       width: 100%;
+   }
+
+   .first-left-width, .first-right-width, .box-width .player-image,
+    .video-box-width, .video-box, .heading ,
+     .form, .totall-width {
+       grid-template-columns:  repeat(1, 1fr);
+       flex-direction: column;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------
+Media Queries 
+----------------*/
