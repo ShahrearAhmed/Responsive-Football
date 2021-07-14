@@ -36,18 +36,21 @@ main{
     color: white;
 
 }
-
-button, .link-button{
+button{
     width: 168px;
     height: 50px;
     margin-top: 27px;
     padding:10px;
     text-decoration: none;
     font-weight: 700;
-    color: white;
     background-color: #E02C6D;
-    font-size: 15px;
-    border: 2px solid #E02C6D;  
+    border:2px solid #E02C6D ;
+}
+button:hover{
+    background-color:black;
+    color:orangered ;
+    transition: 1s;
+    border: 2px solid orangered;
 }
 
 .fa-arrow-right{
@@ -223,22 +226,7 @@ button, .link-button{
     font-weight: bold;
     margin: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Seven Section */
 /*Footer Section*/
 
 .footer-section{
