@@ -71,6 +71,8 @@ button, .link-button{
 .second-section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 60px;
+
 }
 .box-width{
     width: 1050px;
@@ -79,6 +81,7 @@ button, .link-button{
     justify-content: space-between;
     margin-left: 180px;
     margin-right: 210px;
+  
     
 }
 .player-image{
@@ -106,3 +109,27 @@ button, .link-button{
     size: 16px;
     margin: 10px 15px 33px 15px;
 }
+
+/* Third-Section */
+.third-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 60px;
+}
+/* Third-Section */
+
+/* Fourth-Section */
+.fourth-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 60px;
+}
+/* Fourth-Section */
+
+/* Fifth-Section */
+.fifth-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 60px;
+}
+/* Fifth-Section */
